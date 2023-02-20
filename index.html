@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-  <button onclick="prompt('click')">Click me </button>
-  <p>Check out <a href="javascript:x='%27-alert(1)-%27';" >freeCodeCamp</a>.</p>
-
-</body>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="login-container">
+      <form>
+        <h1>Login</h1>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
 </html>
